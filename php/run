@@ -1,0 +1,3 @@
+# /usr/bin/env sh
+
+php -d extension=./target/debug/libphp_rshash.so "$@"
